@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .project {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .download-button {
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <nav class="navbar">
+        <div class="toggle-button">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <div class="portfolio-name">Portfolio</div>
+    </nav>
+
+
+
+
+
+    <div class="content">
+        <div class="content">
+            <section id="home" class="section">
+                <header>
+                    <h1>Thamarai kani</h1>
+                    <p>Address: S/O,R.Arumugam 4/148,Pillaiyar Kovilstreet, Brahmadesam-627413 Ambasamudram(T.K), Tirunelveli(D.T)
+
+                    </p>
+                    <p><a class="hire-button" href="mailto:thamaraikanisundar@gmail.com">Hire Me</a></p>
+                    <p><a class="chat-button" href="sms:+916369389486">Let's Chat</a></p>
+
+                </header>
+
+                <section class="section">
+                    <h2>Objective</h2>
+                    <p>i am assocciate myself with an esteemed that gives me scope to apply my knowledge and in the area development of a application is organization and acquire ne w skills</p>
+                </section>
+
+
+            </section>
+
+            <section id="skills" class="section">
+                <section class="section">
+                    <h2>Technical Skills</h2>
+                    <ul>
+                        <li>Programming Languages: C,C++ ,Ms office,HTML</li>
+                        <li>Database: Oracle</li>
+                        <li>Operating Systems: OS knowledge</li>
+                    </ul>
+                </section>
+            </section>
+
+            <section id="education" class="section">
+                <section class="section">
+                    <h2>Academic Qualification</h2>
+                    <ul>
+                        <li><strong>BCA:</strong> Bachelor of Computer Applications - 2023, The MDT hindu college,pettai</li>
+                        <li><strong>SSLC:</strong> Secondary School Leaving Certificate - 2017, PLWA High School,Vickramasingapuram</li>
+                        <li><strong>HSC:</strong> Higher Secondary Certificate - 2019, PLWA High School,Vickramasingapuram</li>
+                    </ul>
+                    <section class="section">
+                        <h2>Project Profiles</h2>
+                        <div class="project">
+                            <h3>Title: Naan mudhalvan</h3>
+                            <p>
+                                Android app development:Adaptive mall<br> Tools: Android visual studio</p>
+                        </div>
+                        <div class="project">
+                            <h3>Title: online home rentla system</h3>
+                            <p>
+                                front-end:html<br>back end:My sql<br> Description: This project mainly developed for easy to access online home rental system</p>
+                        </div>
+                    </section>
+                </section>
+            </section>
+
+            <section id="personal" class="section">
+                <section class="section">
+                    <h2>Personal Information</h2>
+                    <ul>
+                        <li>Name: A.THAMARAI KANI</li>
+                        <li>DOB: 25.06.2001</li>
+                        <li>Gender: Male</li>
+                        <li>Marital Status: single</li>
+                        <li>Father's Name: R.Arumugam</li>
+                        <li>Nationality: Indian</li>
+                        <li>Religion: Hindu</li>
+                        <li>Languages Known: Tamil & English</li>
+                    </ul>
+                </section>
+            </section>
+        </div>
+    </div>
+    </div>
+
+    <div class="content">
+
+        <div class="project">
+            <h2>My Awesome Project</h2>
+            <p>This is a description of my awesome project.</p>
+            <a class="download-button" href="project.docx" download>Download Project PDF</a>
+        </div>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const toggleButton = document.querySelector(".toggle-button");
+                const sidebar = document.querySelector(".sidebar");
+
+                toggleButton.addEventListener("click", () => {
+                    sidebar.classList.toggle("active");
+                });
+            });
+        </script>
+
+
+        <script src="script.js"></script>
+</body>
+
+</html>
